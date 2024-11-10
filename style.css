@@ -9,7 +9,10 @@ body {
     width: 100vw;
     font-family: Arial, sans-serif;
 }
-
+.sec0{
+    position: fixed;
+    width: 100vw;
+}
 header {
     background-color: #970747;
     height: 7vh;
@@ -25,6 +28,7 @@ header {
     align-items: center;
     justify-content: start;
     height: 100%;
+    font-size: 2.5vw; 
     
 }
 
@@ -49,10 +53,11 @@ ul {
     display: flex;
     justify-content: space-around;
     padding: 5vh 2vw;
-    height: 30vh;
+    height: 80vh;
     background-color: #fff9dc;
     border-bottom: 0.5vh solid #970747;
     font-size: 2.5vw; 
+   
 }
 
 .box1 {
@@ -60,10 +65,11 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
-    width: 70vw;
+    height: 70vh;
+    width: 90vw;
     font-size: 3vw;  
     color: #fff;
+    border-top: 5vh solid#fff9dc  ;
 }
 
 
@@ -72,54 +78,55 @@ ul {
     display: flex;
     justify-content: space-around;
     padding: 5vh 2vw;
-    height: 60vh;
+    height: 80vh;
     background-color: #ffffff;
     border-bottom: 0.5vh solid #970747;
     font-size: 2.5vw;  
 }
+
+
 
 .hoby {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 7vw;
-    padding-left: 5vw;
     font-size: 2vw;  
 }
 
 .box3 {
-    height: 40vh;
-    width: 20vw;
+    height: 50vh;
+    width: 25vw;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fff9dc;
-    border-bottom: 1.5vh solid #970747;
-    border-right: 1.5vh solid #970747;
+    border-bottom: 2vh solid #970747;
+    border-right: 2vh solid #970747;
     font-size: 2.5vw;  
 }
 
 .box4 {
-    height: 40vh;
-    width: 20vw;
+    height: 50vh;
+    width: 25vw;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fff9dc;
-    border-bottom: 1.5vh solid #970747;
-    border-right: 1.5vh solid #970747;
+    border-bottom: 2vh solid #970747;
+    border-right: 2vh solid #970747;
     font-size: 2.5vw;  
 }
 
 .box5 {
-    height: 40vh;
-    width: 20vw;
+    height: 50vh;
+    width: 25vw;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fff9dc;
-    border-bottom: 1.5vh solid #970747;
-    border-right: 1.5vh solid #970747;
+    border-bottom: 2vh solid #970747;
+    border-right: 2vh solid #970747;
     font-size: 2.5vw; 
 }
 .box6{
@@ -128,12 +135,26 @@ ul {
     align-items: center;
     justify-content: center;
     height: 12vw;
-    padding-top: 10%;
-    
+    color: #970747;
+    padding-top: 5% ;
+    background-color: #fff9dc;
+ } 
+ .box67{
+    display: flex;
+    align-self: 50% left;
+    align-items: center;
+    justify-content: center;
+    height: 12vw;
+    color: #970747;
+    padding-top: 5% ;
+    background-color: #fff;
     
 }
+
 .hob{
-    border-bottom: 0.3vh solid #970747;
+    border-bottom: 0.5vh  solid #970747;
+    display: flex;
+    font-size: 4vw ; 
     
 
 }
@@ -142,7 +163,7 @@ ul {
     display: flex;
     justify-content: space-around;
     padding: 5vh 2vw;
-    height: 50vh;
+    height: 80vh;
     border-bottom: 0.5vh solid #970747;
     font-size: 2.5vw;  
 }
@@ -152,8 +173,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
-    width: 70vw;
+    height: 60vh;
+    width: 90vw;
     font-size: 3vw;  
     color: #fff;
 }
@@ -162,24 +183,23 @@ ul {
     display: flex;
     justify-content: space-around;
     padding: 5vh 2vw;
-    height: 70vh;
+    height: 80vh;
     background-color: #fff9dc;
     border-bottom: 0.5vh solid #970747;
-    font-size: 2.5vw;  
+    display: flex;
 }
 
 .skl {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 7vw;
-    padding-left: 5vw;
+    gap: 1vw;
     font-size: 2vw; 
 }
 
 .box9 {
     height: 40vh;
-    width: 20vw;
+    width: 30vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,7 +210,7 @@ ul {
 
 .box10 {
     height: 40vh;
-    width: 20vw;
+    width: 30vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,7 +221,7 @@ ul {
 
 .box11 {
     height: 40vh;
-    width: 20vw;
+    width: 30vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,7 +234,7 @@ ul {
     display: flex;
     justify-content: space-around;
     padding: 5vh 2vw;
-    height: 70vh;
+    height: 80vh;
     border-bottom: 0.5vh solid #970747;
     font-size: 2.5vw;  
 }
@@ -224,7 +244,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 60vh;
     width: 90vw;
     font-size: 3vw;  
     color: #fff;
