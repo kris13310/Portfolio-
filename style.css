@@ -63,7 +63,7 @@ ul {
 .box1 {
     background-color: #970747;
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     height: 70vh;
     width: 90vw;
@@ -71,7 +71,57 @@ ul {
     color: #fff;
     border-top: 5vh solid#fff9dc  ;
 }
+ 
+.sen{
+    text-align: center;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    height: ;
 
+}
+
+.box2{
+align-self: start;
+
+
+
+
+}
+
+.web{
+text-align: center;
+display: flex;
+align-self: center;
+justify-content: space-around;
+top: 5vh;
+color: black;
+width: 40vw;
+height: 25vh;
+border-top: 15vh solid#970747;
+border-bottom: solid#fff9dc;
+border-left:60vw #970747;
+
+
+}
+
+.box11{
+    justify-content: space-around;
+    border-right:1vw solid#970747;
+
+}
+.pic1{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background-color: black;
+
+
+    
+   
+
+
+}
 
 
 .sec2 {
@@ -152,11 +202,11 @@ ul {
 
 .hob{
     border-bottom: 0.5vh solid #970747;
-    display: flex;
-    font-size: 4vw ; 
+    width: 20vw;
+    font-size: 3vw ; 
     align-self: center ;
     align-items: center;
-    width: 
+    text-align: center;
 
 }
 
@@ -251,6 +301,10 @@ ul {
     color: #fff;
 }
 
+
+
+
+   
 .sec6{
     display: flex;
     justify-content: space-around;
@@ -260,4 +314,16 @@ ul {
     border-bottom: 0.5vh solid #970747;
     display: flex;
 
+}
+
+
+
+
+
+footer{
+    background-color: #970747;
+    height: 5vh;
+    text-align: center;
+    font-size: 5vh vw;
+    color: #fff9dc;
 }
