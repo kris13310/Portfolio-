@@ -462,6 +462,11 @@ border-left:60vw #970747;
     flex-direction: column;
     gap: 3vh;
     padding-top: 10vh;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+
+    
 }
 
 .contact-form label {
@@ -483,11 +488,18 @@ border-left:60vw #970747;
 .contact-form button {
     background-color: #970747;
     color: #fff9dc;
-    padding: 1.5vh;
+    
     border-radius: 50vh;
     cursor: pointer;
     font-size: 2vh;
     align-self: flex-end;
+
+        padding: 2vh;
+       
+        border: none;
+        
+       
+         
 }
 
 .contact-form button:hover {
@@ -554,22 +566,9 @@ border-left:60vw #970747;
 }
 
 
-.contact-form input,
-.contact-form textarea {
-    font-size: 2vw; 
-   
-}
 
 
-.contact-form button {
-    padding: 2vh;
-    background-color: #970747;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-size: 2vh;
-     
-}
+
 
 
 .contact-form textarea {
@@ -578,11 +577,6 @@ border-left:60vw #970747;
 }
 
 
-.contact-form {
-    max-width: 100%;
-    width: 100%;
-    margin: 0 auto;
-}
 
 .contact-form input,
 .contact-form textarea,
