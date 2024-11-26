@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,10 +9,12 @@ body {
     width: 100vw;
     font-family: Arial, sans-serif;
 }
-.sec0{
+
+.sec0 {
     position: fixed;
     width: 100vw;
 }
+
 header {
     background-color: #970747;
     height: 7vh;
@@ -29,9 +31,7 @@ header {
     justify-content: start;
     height: 100%;
     font-size: 2.5vw; 
-    
 }
-
 
 .navi {
     flex: 2;
@@ -41,12 +41,17 @@ header {
     height: 100%;
 }
 
-ul {
+.navi ul {
     list-style: none;
     display: flex;
     gap: 3vw;
     color: #fff9dc;
     font-size: 2vw;  
+}
+
+.navi ul li a {
+    color: #fff9dc; 
+    text-decoration: none; 
 }
 
 .sec1 {
@@ -57,69 +62,56 @@ ul {
     background-color: #fff9dc;
     border-bottom: 0.5vh solid #970747;
     font-size: 2.5vw; 
-   
 }
 
 .box1 {
     background-color: #970747;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     height: 90vh;
     width: 95vw;
     font-size: 3vw;  
     color: #fff;
-    border-top: 5vh solid#fff9dc  ;
+    border-top: 5vh solid #fff9dc;
 }
- 
-.sen{
+
+.sen {
     text-align: center;
     display: flex;
     align-self: center;
     justify-content: space-around;
-    height: ;
-
 }
 
-.box2{
+.box2 {
     justify-content: start;
     padding-left: 3vw;
-
-
-
-
 }
 
-.web{
-text-align: center;
-display: flex;
-align-self: center;
-justify-content: space-around;
-top: 5vh;
-color: black;
-width: 40vw;
-height: 25vh;
-border-top: 15vh solid#970747;
-border-bottom: solid#fff9dc;
-border-left:60vw #970747;
-
-
-}
-
-.cir{
+.web {
+    text-align: center;
+    display: flex;
+    align-self: center;
     justify-content: space-around;
-    padding-right: 1vh;
-   
-   
-
+    top: 5vh;
+    color: black;
+    width: 40vw;
+    height: 25vh;
+    border-top: 15vh solid #970747;
+    border-bottom: solid #fff9dc;
+    border-left: 60vw #970747;
 }
-.pic1{
+
+.cir {
+    justify-content: space-around;
+    padding-right: 3vw;
+}
+
+.pic1 {
     width: 30vw;
     height: 30vw;
     border-radius: 50%;
     background-color: black;
-
-
 }
 
 .sec2 {
@@ -167,66 +159,52 @@ border-left:60vw #970747;
     font-size: 0.1vw;  
 }
 
-
 .pic2, .pic3, .pic4 {
     width: 100%;
     height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
-
-.img{
+.img {
     width: 80vh;
     height: 10vw;
     display: flex;
-   
-
-
 }
-
-
 
 .pic2 img, .pic3 img, .pic4 img {
     width: 80%;
     height: 100%;
     object-fit: contain; 
-   
 }
 
-
-.box6{
+.box6 {
     display: flex;
-    align-self: 50% left;
+    align-self: center;
     align-items: center;
     justify-content: center;
     height: 12vw;
-    
-    padding-top: 5% ;
+    padding-top: 3%; 
     background-color: #fff9dc;
- } 
- .box67{
+}
+
+.box67 {
     display: flex;
-    align-self: 50% left;
+    align-self: center;
     align-items: center;
     justify-content: center;
     height: 12vw;
-    
-    padding-top: 5% ;
+    padding-top: 3%; 
     background-color: #fff;
-    
 }
 
-.hob{
+.hob {
     border-bottom: 0.5vh solid #970747;
     width: 20vw;
-    font-size: 3vw ; 
-    align-self: center ;
-    align-items: center;
+    font-size: 3vw; 
+    align-self: center;
     text-align: center;
-
 }
 
 .sec3 {
@@ -235,14 +213,10 @@ border-left:60vw #970747;
     padding: 5vh 2vw;
     height: 80vh;
     border-bottom: 0.5vh solid #970747;
-    font-size: 2.5vw;  
+    font-size: 2.5vw;
 }
 
-
-
-
-
-.ltt{
+.ltt {
     background-color: #970747;
     display: flex;
     justify-content: space-between;
@@ -251,43 +225,40 @@ border-left:60vw #970747;
     width: 90vw;
     font-size: 3vw;  
     color: #fff;
-
 }
 
 .box7 {
     justify-content: center;
     display: flex;
-    width:75vw ;
-    height:70vh ;
-
-    
+    width: 50vw;
+    height: 70vh;
 }
 
-.pic5{
+.pic5 {
     justify-content: center;
     display: flex;
-    padding-left: 10vw;
-    
-    
-
-
-
-
 }
-.img1{
+
+.h1 {
+    justify-content: center;
+}
+
+.learn {
+    justify-content: center;
+    width: 50vw;
+}
+
+.img1 {
     align-self: center;
-    height:80% ;
-    width: 90%;
+    height: 45vh;
+    width: 30vw;
     display: flex;
-
-
-
 }
 
-.box8{
+.box8 {
     color: black;
-    padding: 5vw;
-    font-size: 7vh;
+    font-size: 5vh;
+    justify-content: center;
 }
 
 .sec4 {
@@ -329,13 +300,6 @@ border-left:60vw #970747;
     text-align: center;
 }
 
-.t1 {
-    font-weight: bold;
-    margin-bottom: 2vh; 
-    font-size: 1.5em;  
-}
-
-
 .pic6, .pic7, .pic8 {
     width: 100%;
     height: 60%;
@@ -347,15 +311,13 @@ border-left:60vw #970747;
 .pic6 img, .pic7 img, .pic8 img {
     max-width: 80%;
     max-height: 100%;
-    object-fit: contain; 
+    object-fit: contain;
 }
 
-.img2{
-    height:80% ;
+.img2 {
+    height: 80%;
     width: 80%;
 }
-
-
 
 .sec5 {
     display: flex;
@@ -372,7 +334,6 @@ border-left:60vw #970747;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 10px; 
     width: 95vw;
     height: 86vh;
     background-color: #970747;
@@ -383,9 +344,8 @@ border-left:60vw #970747;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    gap: 5px;
+    gap: 5vw;
     border: 2vh solid #970747;
-
 }
 
 .box13, .box14, .box15, .box16, .box17, .box18 {
@@ -401,29 +361,70 @@ border-left:60vw #970747;
     width: 100%;
     height: 100%;
     object-fit: cover; 
+    border-top: 1vw solid #fff9dc;
+    border-left: 1vw solid #fff9dc;
 }
 
-
-
-
-.sec6{
+.sec6 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 5vh 2vw;
-    height: 95vh;
     background-color: #fff9dc;
     border-bottom: 0.5vh solid #970747;
+    height: 80vh;
+    width: 100vw;
+}
+
+.com {
     display: flex;
-
+    width: 100vw;
+    justify-content: space-between;
+    padding: 3vh 3vw;
+    height: 70vh;
 }
 
+.box20 {
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.box21 {
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-footer{
-    background-color: #970747;
+.box21 textarea {
+    width: 95%;
+    height: 60%;
+    padding: 1vw;
+    resize: none;
+    font-size: 1.5vw;
+    border: 0.3vh solid #970747;
+    background-color: #fff;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 15%;
+    padding-top: 2vh;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 7vh;
-    text-align: center;
-    font-size:  5vh;
-    color: #fff9dc;
+    background-color: #970747;
+    color: #fff;
+    font-size: 2vw;
 }
-
