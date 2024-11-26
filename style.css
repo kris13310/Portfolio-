@@ -527,33 +527,6 @@ ul {
 
 
 
-/* Layout for tablets and small laptops (768px and above) */
-@media (min-width: 768px) {
-    html {
-        font-size: 1.2vw;  /* Slightly increase the base font size for larger devices */
-    }
-
-    header {
-        height: 7vh;
-        font-size: 2.3vw; 
-    }
-
-    .box1 {
-        height: 60vh;
-        width: 75vw;
-        font-size: 1.8vw;
-    }
-
-    .sec1 {
-        padding: 4vh 3vw;
-        font-size: 2vw;
-    }
-
-    .navi ul {
-        gap: 2.5vw;
-    }
-}
-
 
 
 
