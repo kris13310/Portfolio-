@@ -240,7 +240,7 @@ border-left:60vw #970747;
 
 .hob{
     border-bottom: 0.5vh solid #970747;
-    width: 20vw;
+    width: 25vw;
     font-size: 3vw ; 
     align-self: center ;
     align-items: center;
@@ -310,7 +310,6 @@ border-left:60vw #970747;
 
 .box8{
     color: black;
-    font-size: 5vh;
     
     justify-content: center
     
@@ -488,15 +487,13 @@ border-left:60vw #970747;
 .contact-form button {
     background-color: #970747;
     color: #fff9dc;
-    
     border-radius: 50vh;
     cursor: pointer;
     font-size: 2vh;
     align-self: flex-end;
-
-        padding: 2vh;
-       
-        border: none;
+    padding: 2vh;
+    border: none;
+    width: 15vw;
         
        
          
@@ -519,7 +516,7 @@ border-left:60vw #970747;
 }
 
 .hob {
-    font-size: 3vh;
+    
     color: #970747;
     margin-bottom: 2vh;
 }
@@ -566,11 +563,6 @@ border-left:60vw #970747;
 }
 
 
-
-
-
-
-
 .contact-form textarea {
     resize: none; 
     white-space: pre-wrap; 
@@ -592,6 +584,6 @@ border-left:60vw #970747;
 
 .foter {
     text-align: center;
-    font-size: 3vh;
+    font-size: 30%;
     color: #fff9dc;
 }
